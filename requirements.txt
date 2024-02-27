@@ -3,3 +3,9 @@ steem==0.18.103
 Flask==0.12.2
 python_dateutil==2.6.1
 bleach==2.1.1
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+dateparser>=1.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
+ecdsa>=0.14 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+ujson>=5.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
