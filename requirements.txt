@@ -1,5 +1,6 @@
-PyMySQL==0.7.11
+PyMySQL==1.1.1
 steem==0.18.103
 Flask==0.12.2
 python_dateutil==2.6.1
 bleach==2.1.1
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
